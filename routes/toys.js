@@ -166,7 +166,7 @@ router.get("/prices" , async(req,res)=>{
     }
     }  catch(err){
       console.log(err);
-      res.status(500).json({msg:"there error try again later",err})
+      res.status(500).json({msg:"there is an error, try again later",err})
     }
   })
 
